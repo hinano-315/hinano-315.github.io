@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>初めてのウェブページ</title>
-  </head>
-  <body>
-    <p>これは私が初めて作ったウェブページです。</p>
-  </body>
+<html lang = "ja">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Hinano's portfolio</title>
+        <meta name ="description" content="Hinano's portfolio">
+        <link rel="icon" type="image/png" href="image/favicon.png">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="CSS/portfolio.css" rel="stylesheet">    
+    </head>
+
+    <body>
+        <div id = "home" class = "top-pg">
+
+    <!-- header -->
+            <header class = "page-header max">
+                <h1><a href="index.html"><img class = "logo" src = "image/ロゴ.png" alt = "Hinano's Portfolio"></a></h1>
+                <nav>
+                    <ul class = "main-nav">
+                        <li><a href = "about.html">About</a></li>
+                        <li><a href = "works.html">Works</a></li>
+                        <li><a href = "skill.html">Skill</a></li>
+                        <li><a href="https://twitter.com/usagi_UGOK" >
+                            <img src = "image/Twitterのアイコン素材 2.png" alt="Twitterのリンク"></a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+    <!-- main image-->
+    <div class="topimg">
+        <img src ="image/Hinano's portfolio2.png" alt="Hinano's portfolio mainimage">
+    </div>
+
+    <!-- About -->
+    <h2 class="mokuji">About</h2>
+    <div class="profile">
+        <image src = "image/profile.png"></image>
+        <p>私は関西在住の女子大生です。<br>簡単なアプリやウェブサイトを制作しています。</br></p>
+    </div>
+ 
+    <!-- Skill -->
+    <h2 class="mokuji">Skill</h2>
+    <div class="skill">
+
+    <div class="skill1">
+        <h3>.bubble</h3>
+        <image src = "image/bubble.png" alt=".bubbleのイラスト"></image>
+        <p>簡単なアプリを制作しています。</p>
+    </div>
+
+    <div class="skill1">
+        <h3>HTML</h3>
+        <image src = "image/html logo.png" alt=".bubbleのイラスト"></image>    
+    </div>
+    
+    <div class="skill1">
+        <h3>CSS</h3>
+        <image src = "image/CSS logo.png" alt=".bubbleのイラスト"></image>
+    </div>
+    
+    </div>
+
+    <!-- Works -->
+    <h2 class="mokuji">Works</h2>
+    <div class="worksimg">
+        <div>
+            <a href = "https://hnn-prefe.bubbleapps.io/version-test?debug_mode=true">
+            <image src="image/worksimg.png"></image></a>
+            <p>飲食店を記録するアプリを作成しました。<br>/.bubble/</br></p>
+        </div>
+
+        <div>
+        <a href="https://test-hnn.bubbleapps.io/version-test?debug_mode=true">
+        <image src="image/calender.png"></image></a>
+        <p>簡単なカレンダーアプリを作成しました。<br>/.bubble/</br></p>
+        </div>
+    </div>
+
+    <!--ページ上部に戻るボタン-->
+    <div class="page-top">
+    <a href ="#home"><image src="image/allow.jpg"></image></a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+        <p><small>&copy; 2021 Made by Hinano</small></p>
+        </div>
+    </footer>
+
+
+    </body>
 </html>
