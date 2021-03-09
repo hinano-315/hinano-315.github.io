@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/*　共通部分
+------------------------------*/
+html{
+    font-size: 100%
+}
+
+body{
+font-family:"Tw Cen MT","游ゴシック体",YuGothic;
+line-height: 1.9;
+color:#64440E;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+h2 {
+    letter-spacing: 5px;
+    color:#D46F18;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+h3{
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+nav{
+    letter-spacing: 2px;
+}
+
+/*　HEADER
+------------------------------*/
+.logo{
+    width:260px;
+    margin-top: 15px;
+}
+
+.main-nav{
+    display:flex;
+    font-size:1.5rem;
+    text-transform:capitalize;
+    margin-top: 35px;
+    list-style: none;
+}
+
+.main-nav li{
+    margin:0 20px;
+}
+
+.main-nav a{
+    color:#D46F18;
+}
+
+.main-nav li img{
+    width: 25px;
+    margin-top:7px;
+    background-size: contain;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.max{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*　HOME
+------------------------------*/
+.topimg{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:0 15%;
+}
+
+.mokuji{
+    text-align: center;
+    margin-top:50px;
+}
+
+.profile img{
+    width:20%;
+    background-size: contain;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+}
+
+.profile p{
+    margin-top:60px;
+}
+
+.skill{
+display: flex;
+justify-content: center;
+}
+.skill img{
+    width: 150px;
+    background-size: contain;
+}
+
+.skill1 h3{
+    text-align: center;
+}
+
+.skill1{
+    margin:0 3%;
+}
+
+.skill1 p{
+    max-width:160px;
+}
+
+.worksimg{
+    display: flex;
+    justify-content: center;
+}
+
+.worksimg img{
+    width: 400px;
+}
+
+.worksimg p{
+    text-align: center;
+}
+
+.page-top img{
+    width: 60px;
+    margin:100px 0 0 80%;
+}
+
+/*フッター
+------------------------------*/
+footer{
+    background:#BB9B64;
+    text-align: center;
+    padding: 26px 0;
+    margin: 200px 0 0 0;
+}
+
+footer p{
+    font-size: 1rem;
+    color:white;
+    letter-spacing: 2px;
+}
