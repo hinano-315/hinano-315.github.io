@@ -4,25 +4,26 @@
         <meta charset = "UTF-8">
         <title>Hinano's portfolio</title>
         <meta name ="description" content="Hinano's portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/png" href="image/favicon.png">
 
     <!-- CSS -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-        <link rel="stylesheet" href="https://hinano-315.github.io/portfolio/style.css"/>    
+        <link href="CSS/portfolio.css" rel="stylesheet">    
     </head>
 
-    <body>
-        <div id = "home" class = "top-pg">
+    <body id ="home">
+        <div class = "top-pg">
 
     <!-- header -->
             <header class = "page-header max">
                 <h1><a href="index.html"><img class = "logo" src = "image/ロゴ.png" alt = "Hinano's Portfolio"></a></h1>
                 <nav>
                     <ul class = "main-nav">
-                        <li><a href = "about.html">About</a></li>
-                        <li><a href = "works.html">Works</a></li>
-                        <li><a href = "skill.html">Skill</a></li>
-                        <li><a href="https://twitter.com/usagi_UGOK" >
+                        <li class="move"><a href = "about.html">About</a></li>
+                        <li class="move"><a href = "works.html">Works</a></li>
+                        <li class="move"><a href = "skill.html">Skill</a></li>
+                        <li class="twitter"><a href="https://twitter.com/usagi_UGOK" >
                             <img src = "image/Twitterのアイコン素材 2.png" alt="Twitterのリンク"></a></li>
                     </ul>
                 </nav>
@@ -31,13 +32,14 @@
 
     <!-- main image-->
     <div class="topimg">
-        <img src ="image/Hinano's portfolio2.png" alt="Hinano's portfolio mainimage">
+        <img class="pc" src ="image/Hinano's portfolio2.png" alt="Hinano's portfolio mainimage">
+        <img class="sp" src = "image/Hinano's portfolio  mobile.png" alt="Hinano's portfolio mainimage mobile ver">
     </div>
 
     <!-- About -->
     <h2 class="mokuji">About</h2>
     <div class="profile">
-        <image src = "image/profile.png"></image>
+        <image src = "image/profile.png" alt="プロフィールイラスト"></image>
         <p>私は関西在住の女子大生です。<br>簡単なアプリやウェブサイトを制作しています。</br></p>
     </div>
  
@@ -48,17 +50,16 @@
     <div class="skill1">
         <h3>.bubble</h3>
         <image src = "image/bubble.png" alt=".bubbleのイラスト"></image>
-        <p>簡単なアプリを制作しています。</p>
     </div>
 
     <div class="skill1">
         <h3>HTML</h3>
-        <image src = "image/html logo.png" alt=".bubbleのイラスト"></image>    
+        <image src = "image/html logo.png" alt="HTMLのイラスト"></image>    
     </div>
     
     <div class="skill1">
         <h3>CSS</h3>
-        <image src = "image/CSS logo.png" alt=".bubbleのイラスト"></image>
+        <image src = "image/CSS logo.png" alt="CSSのイラスト"></image>
     </div>
     
     </div>
@@ -67,13 +68,13 @@
     <h2 class="mokuji">Works</h2>
     <div class="worksimg">
         <div>
-            <a href = "https://hnn-prefe.bubbleapps.io/version-test?debug_mode=true">
+            <a href = "works-1.html">
             <image src="image/worksimg.png"></image></a>
             <p>飲食店を記録するアプリを作成しました。<br>/.bubble/</br></p>
         </div>
 
-        <div>
-        <a href="https://test-hnn.bubbleapps.io/version-test?debug_mode=true">
+        <div class="w2">
+        <a href="works-2.html">
         <image src="image/calender.png"></image></a>
         <p>簡単なカレンダーアプリを作成しました。<br>/.bubble/</br></p>
         </div>
