@@ -370,6 +370,26 @@ footer p{
     .w2{
         margin-top: 10%;
     }
+    
+     /*works-1 2*/
+    .workspg{
+        margin-left:0;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    h4{
+        margin:0;
+        text-align: center;
+    }
+
+    .worksurl{
+        margin-left: 0;
+    }
+
+    .url{
+        text-align: center;
+    }
 
     /*Skill*/
     .pagename{
