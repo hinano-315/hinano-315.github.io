@@ -33,6 +33,14 @@ h3{
     font-size: 1.5rem;
 }
 
+h4{
+    letter-spacing: 5px; 
+    font-weight: lighter;
+    font-size:2rem;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
 nav{
     letter-spacing: 2px;
 }
@@ -41,19 +49,33 @@ nav{
 ------------------------------*/
 .logo{
     width:260px;
-    margin-top: 15px;
+    margin-top: 5%;
 }
 
 .main-nav{
     display:flex;
     font-size:1.5rem;
     text-transform:capitalize;
-    margin-top: 35px;
+    margin-top: 10%;
     list-style: none;
 }
 
 .main-nav li{
     margin:0 20px;
+}
+
+.main-nav li :hover{
+    color:#8a6c39;
+}
+
+.move:hover{
+    transform:translateY(-8px);
+    transition-duration: 0.7s;
+}
+
+.twitter:hover{
+    transform: scale(1.3);
+    transition-duration: 0.5s;
 }
 
 .main-nav a{
@@ -83,12 +105,20 @@ nav{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin:0 15%;
+    margin:50px 15%;
+}
+
+.pc{
+    display:block;
+}
+
+.sp{
+    display:none;
 }
 
 .mokuji{
     text-align: center;
-    margin-top:50px;
+    margin-top:70px;
 }
 
 .profile img{
@@ -102,12 +132,13 @@ nav{
 }
 
 .profile p{
-    margin-top:60px;
+    margin-top:4%;
 }
 
 .skill{
 display: flex;
 justify-content: center;
+margin-top: 4%;
 }
 .skill img{
     width: 150px;
@@ -133,6 +164,12 @@ justify-content: center;
 
 .worksimg img{
     width: 400px;
+    margin-top: 4%;
+}
+
+.worksimg img:hover{
+    transform: scale(1.07);
+    transition-duration: 1s;
 }
 
 .worksimg p{
@@ -142,6 +179,11 @@ justify-content: center;
 .page-top img{
     width: 60px;
     margin:100px 0 0 80%;
+}
+
+.page-top img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
 }
 
 /*フッター
@@ -157,4 +199,210 @@ footer p{
     font-size: 1rem;
     color:white;
     letter-spacing: 2px;
+}
+
+/*About
+------------------------------*/
+.pagename{
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.myprof{
+    display: flex;
+    justify-content: center;
+}
+
+.myprof p{
+    margin-top:5%;
+    margin-left: 5%;
+}
+
+.myprof img{
+    width:25%;
+}
+
+/*Skill
+--------------------------------*/
+.skill-ex{
+    display: flex;
+    justify-content: center;
+}
+
+.illust{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.illust img{
+    width:40%;
+}
+
+.icon{
+    text-align: left;
+}
+.icon p{
+    margin-top: 10px;
+    max-width: 70%;
+}
+
+.icon img{
+    margin-top: 120px;
+    width:8%;
+}
+
+/*Works
+--------------------------------*/
+.workspg{
+    color:#D46F18;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.prefe{
+    text-align: center;
+    margin-top:60px;
+}
+
+.worksurl{
+    margin-left: 20.5%;
+    color:#64440E;
+}
+
+.worksurl:hover{
+    color: #D46F18;
+}
+
+/*モバイル版
+--------------------------------*/
+@media (max-width:600px){
+
+    /*共通部分*/
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 0.2rem;
+    }
+    
+    .page-top img{
+        width:50px;
+    }
+
+    /*HEADER*/
+    .page-header{
+        display: block;
+        text-align: center;
+    }
+    .page-header ul{
+        margin-left:11%;
+    }
+
+    .main-nav li{
+        font-size: 1.5rem;
+        margin:-10% 10px 2% 10px;
+    }
+
+    .logo{
+        width: 70%;
+    }
+
+    .main-nav img{
+        width:20px;
+        }
+
+    /*HOME*/
+    .topimg{
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin:4% 0;
+    }
+
+    .pc{
+        display: none;
+    }
+
+    .sp{
+        display: block;
+    }
+
+    .profile{
+        display: block;
+        text-align: center;
+    }
+
+    .profile img{
+        width:50%;
+    }
+    
+    .skill{
+        display: block;
+        text-align: center;
+    }
+
+    .worksimg{
+        display: block;
+        text-align: center;
+    }
+
+    /*About*/
+    .pagename{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .myprof{
+        display: block;
+        text-align: center;
+    }
+
+    .myprof img{
+        width:50%;
+    }
+
+    /*Works*/
+    .w2{
+        margin-top: 10%;
+    }
+
+    /*Skill*/
+    .pagename{
+        font-size: 3rem;
+    }
+
+    .skill-ex{
+        display: block;
+    }
+
+    .skill-ex h3{
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+
+    .skill-ex p{
+        margin:0 25% 20% 25%;
+    }
+
+    .illust{
+        text-align: center;
+        margin:0;
+    }
+
+    .illust img{
+        width:50%;
+    }
+
+    .icon{
+        text-align: center;
+    }
+
+    .icon img{
+        margin:0;
+    }
 }
