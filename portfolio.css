@@ -390,6 +390,10 @@ footer p{
     .url{
         text-align: center;
     }
+    
+     .prefe p{
+        margin:0 20%;
+    }
 
     /*Skill*/
     .pagename{
